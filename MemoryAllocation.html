@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory Allocator</title>
+    <link rel="stylesheet" type="text/css" href="MemoryAllocation.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Memory Allocator</h1>
+        <div id="form">
+            <label for="numProcesses">Number of Processes:</label>
+            <input type="number" id="numProcesses"><br>
+            <div id="processSizes"></div>
+            <button onclick="addProcessInput()">Add Process Size</button><br><br>
+            <label for="numBlocks">Number of Memory Blocks:</label>
+            <input type="number" id="numBlocks"><br>
+            <div id="blockSizes"></div>
+            <button onclick="addBlockInput()">Add Block Size</button><br><br>
+            <label for="allocationStrategy">Allocation Strategy:</label>
+            <select id="allocationStrategy">
+                <option value="firstFit">First Fit</option>
+                <option value="nextFit">Next Fit</option>
+                <option value="bestFit">Best Fit</option>
+                <option value="worstFit">Worst Fit</option>
+            </select><br><br>
+            <button onclick="allocateMemory()">Allocate Memory</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="MemoryAllocation.js"></script>
+</body>
+</html>

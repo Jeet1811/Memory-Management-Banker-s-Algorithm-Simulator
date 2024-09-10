@@ -1,0 +1,68 @@
+table{
+    border: 2px solid;
+    text-align: center;
+    width: 50rem;
+    margin: 2rem auto;
+    
+}
+div{
+    margin:2rem 2rem;
+}
+body{
+    background-color: #D8E3E7;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+tr{
+    border: 2px solid;
+}
+td{
+    border: 2px solid;
+    font-family: 'Arvo', serif;
+}
+th{
+    border: 2px solid;
+}
+#main-heading{
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+    margin-bottom:4rem ;
+}
+h3{
+    color: #151D3B;
+    font-family: 'BioRhyme', serif;  
+}
+h2,h6{
+    font-family: 'Righteous', cursive;
+}
+h6{
+    font-size: 1.25rem;
+}
+p{
+    font-size: 1rem;
+    font-family: 'Arvo', serif;
+}
+.form-control{
+    font-family: 'Arvo', serif;
+}
+.int{
+    width: 5rem;
+}
+.btn{
+    font-family: 'BioRhyme', serif;
+}
+hr{
+    width:5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    margin: 50px auto 50px auto;
+    background-color: #D8E3E7;
+    color:#0F044C;
+}
+.text{
+    /* For editing the style of text present in the page */
+    font-family: 'BioRhyme', serif;
+}
